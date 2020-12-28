@@ -28,13 +28,6 @@ For Detection with pre-trained models it provides:
   - h5py
   - configobj
 
-
-## **`Get Started:`**
-```python
-!pip install visual_perception
-```
-
-
 ### **`Image Object Detection` Using `YOLOv4`** 
 
 ```python
