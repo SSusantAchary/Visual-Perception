@@ -171,7 +171,7 @@ class Object_Detection:
           else:
             print('Downloading weights file...\nPlease wait...')
             self.weights_path = tf.keras.utils.get_file('tinyyolo.weights',
-            'https://github.com/SSusantAchary/Visual-Perception/releases/download/0.1/yolov4-tiny.weights',
+            'https://github.com/SSusantAchary/Visual-Perception/releases/download/1.0/yolov4-tiny.weights',
             cache_subdir = 'weights/', cache_dir = 'visual_perception')
         else: 
           if os.path.isfile(weights_path):
