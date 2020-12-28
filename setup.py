@@ -54,7 +54,6 @@ setup(
         'h5py',
         'imgaug',
         'scikit-image',
-        'labelme2coco',
         'configobj',
     ],
 
