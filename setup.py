@@ -6,6 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='visual_perception',
+    version = __version__,
     description='A High Level Python Library for Visual Recognition ',
     url="https://github.com/SSusantAchary/Visual-Perception",
     author="SusantAchary",
